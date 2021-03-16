@@ -81,9 +81,6 @@ def Al(
         ax.text(10.5, 0.4 + SLOPE * 9, "AlO$_2^-$")
         ax.text(3.5, -2.1, "Al")
 
-    if reactions:
-        pass
-
     return fig, ax
 
 
@@ -102,9 +99,6 @@ def Ir(
     if phases:
         ax.text(7.6, 0.55, "IrO$_2$")
         ax.text(5.7, 0.15, "Ir")
-
-    if reactions:
-        pass
 
     return fig, ax
 
@@ -133,9 +127,6 @@ def Ru(
         ax.text(10.0, 0.85, "RuO${_4}^{-}$", rotation=-7)
         ax.text(12.5, 0.60, "RuO${_4}^{-2}$", rotation=ROTATION)
         ax.text(12.0, 1.25, "HRuO${_5}^{-}$")
-
-    if reactions:
-        pass
 
     return fig, ax
 
