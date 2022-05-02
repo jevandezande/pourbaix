@@ -1,14 +1,10 @@
 #!/usr/bin/env python3
-from __future__ import annotations
-
-from typing import Tuple
 
 import matplotlib
 import numpy as np
 from matplotlib import pyplot as plt
 
-
-MPLFig = Tuple[matplotlib.figure.Figure, matplotlib.axes.Subplot]
+MPLFig = tuple[matplotlib.figure.Figure, matplotlib.axes.Subplot]
 
 SLOPE = -0.059
 ROTATION = -8
